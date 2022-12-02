@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000c18;
+}
+.box {
+    height: 300px;
+    width: 300px;
+    background-image: linear-gradient(to bottom right, red, purple);
+    padding: 10px;
+    border-radius: 50%;
+}
+.child-box {
+    width: 100%;
+    height: 100%;
+    background-color: #000c18;
+    border-radius: inherit;
+}
